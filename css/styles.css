@@ -1,0 +1,62 @@
+/* NAVBAR */
+
+main {
+    margin-top: -70px;
+}
+
+.navbar-brand img{
+    width: 280px;
+}
+
+.navbar-custom{
+    background-color: transparent;
+}
+
+.ul-custom{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+/* FIN NAVBAR */
+
+/* CAROUSEL */
+
+#myCarousel .carousel-item{
+    z-index: -1000;
+    height: 100vh;
+}
+
+#myCarousel li{
+    list-style-type: none;
+    text-align: right;
+    margin: 15px 0px;
+}
+
+#myCarousel i{
+    font-size: 1.5em;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    main {
+        margin-top: 0px;
+    }
+    
+    .nav-link{
+        color: #333 !important;
+    }
+  }
