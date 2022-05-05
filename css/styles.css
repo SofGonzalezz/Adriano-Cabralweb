@@ -152,3 +152,25 @@ main {
     font-size: 55px;
     margin-top: 50px;
 }
+
+/* FIN SERVICIOS */
+
+.portfolioDetail{
+    margin-top: 35px;
+}
+
+.portfolioDetail h4{
+    font-size: 16px;
+}
+
+.portfolioFix{
+    margin-top: 55px;
+}
+
+.portfolioHalfFix{
+    margin-top: 22px;
+}
+
+.portfolioFixImg{
+    margin-top: 200px;
+}
