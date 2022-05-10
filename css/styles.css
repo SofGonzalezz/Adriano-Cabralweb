@@ -1,21 +1,40 @@
+body{
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 
 main {
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 .navbar-brand img{
-    width: 280px;
+    width: 320px;
+}
+
+.colorNav{
+    background-color: white;
+    border-bottom: 1px solid #999;
 }
 
 .navbar-custom{
     background-color: transparent;
     z-index: 1000;
+    margin-top: 15px;
+}
+
+.nav-link{
+    color: #999 !important;
+}
+
+.nav-link:hover{
+    color: #878787 !important;
 }
 
 .ul-custom{
     justify-content: space-evenly;
     width: 100%;
+    align-items: center;
 }
 
 
@@ -54,6 +73,14 @@ main {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #999;
+}
+
+.invertirText{
+    color: #333;
 }
 
   @media (min-width: 768px) {
@@ -245,6 +272,8 @@ main {
     margin-top: 150px;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(180.04deg, rgba(135, 135, 135, 0.01) -18.46%, #878787 16.7%);
+    padding: 60px;
 }
 .subtituloForm{
     font-family: 'Roboto', sans-serif;
@@ -281,3 +310,24 @@ main {
     .formboton:hover {
         transform: scale(1.1);
     }
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    padding: 25px;
+}
+
+footer i{
+    margin: 0 5px;
+}
+
+footer h5{
+    margin-top: 20px;
+    color: white;
+}
+
+.logoiconoFooter{
+    margin-top: 20px;
+    width: 160px;
+}
