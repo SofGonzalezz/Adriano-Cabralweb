@@ -22,6 +22,11 @@ main {
 /* FIN NAVBAR */
 
 /* CAROUSEL */
+.textoCarrusel{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
 
 #myCarousel .carousel-item{
     z-index: -1000;
@@ -45,6 +50,11 @@ main {
     -moz-user-select: none;
     user-select: none;
   }
+.nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
@@ -71,7 +81,7 @@ main {
 }
 
 .subtitulo{
-    color: rgba(22, 29, 38, 1);
+    color: #141418;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -111,7 +121,9 @@ main {
 #btnWhat:hover{
     transform: scale(1.1);
 }
-
+.Bienvenido{
+    margin-top: 150px;
+}
 .bienvenidosFlex{
     display: flex;
     flex-direction: column;
@@ -145,7 +157,7 @@ main {
 }
 
 .parrafoInicio{
-    color:black;
+    color:#141418;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -153,7 +165,7 @@ main {
     margin-bottom: 50px;
 }
 
-.logoicono{
+.logoicono1{
     height: 200px;
     margin-top: 30px;
 }
@@ -177,7 +189,7 @@ main {
 }
 
 .parrafoServicio{
-    color: rgba(22, 29, 38, 1);
+    color: #141418;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -190,11 +202,10 @@ main {
 
 .containerLetra{
     margin-top: -20px;
-
 }
 
 .tituloContacto{
-    color: rgba(0, 0, 0, 1);
+    color: #141418;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 55px;
@@ -203,6 +214,10 @@ main {
 
 /* FIN SERVICIOS */
 
+/* INICIO PORFOLIO */
+.portfolio{
+    margin-top: 150px;
+}
 .portfolioDetail{
     margin-top: 35px;
 }
@@ -222,3 +237,47 @@ main {
 .portfolioFixImg{
     margin-top: 200px;
 }
+/* FIN PORFOLIO */
+
+/* INICIO FORMULARIO */
+.form{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.subtituloForm{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #141418;
+}
+
+.logoicono2{
+    height: 150px;
+}
+
+.formtext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  
+}
+.form-floating{
+    padding-left: 0;
+}
+.containerBoton{
+    display: flex;
+    justify-content: end;
+}
+.formboton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #D33838;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 40px rgba(211, 131, 131, 0.42) }
+    .formboton:hover {
+        transform: scale(1.1);
+    }
