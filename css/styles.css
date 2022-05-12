@@ -89,15 +89,6 @@ main {
     }
   }
 
-  @media (max-width: 480px) {
-    main {
-        margin-top: 0px;
-    }
-    
-    .nav-link{
-        color: #333 !important;
-    }
-  }
 
 /* FIN CARRUSEL */
 
@@ -331,3 +322,73 @@ footer h5{
     margin-top: 20px;
     width: 160px;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+
+    .navbar-brand img{
+        width: 260px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,.5);
+    }
+
+    .colorNav{
+        border: none;
+    }
+
+    .navbar-custom{
+        margin-top: 0px;
+    }
+
+    .icon-bar{
+        background-color: #000;
+        width: 20px;
+        height: 2px;
+        display: block;
+        margin: 5px;
+	}
+
+    #myCarousel{
+        z-index: 0;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+    
+    .carousel-item{
+        height: 34vh !important;
+    }
+    
+    .nav-link{
+        color: #333 !important;
+    }
+
+    .textoCarrusel{
+        position: absolute;
+        font-size: 14px;
+        bottom: 5px;
+    }
+    
+    .parrafoInicio{
+        margin-top: -40px;
+    }
+
+    .H1{
+        font-size: 42px;
+    }
+
+    .H2{
+        font-size: 26px;
+        margin-top: -12px;
+    }
+
+    .itemMobile{
+        margin-bottom: 15px;
+    }
+
+  }
