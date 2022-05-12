@@ -376,6 +376,15 @@ footer h5{
     
     .parrafoInicio{
         margin-top: -40px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .parrafoFlex{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items:stretch;
     }
 
     .H1{
@@ -391,4 +400,65 @@ footer h5{
         margin-bottom: 15px;
     }
 
+    .subtitulo{
+        font-size: 18px
+    }
+    
+    .btn{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .Bienvenido{
+        margin-top: 50px;
+    }
+
+    .logoicono1{
+        height: 100px;
+    }
+
+    .H3{
+        font-size: 20px;
+    }
+    .containerLetra{
+        margin-top: 0;
+    }
+
+    .letra{
+        font-size: 80px;
+    }
+
+    .parrafoServicio{
+        font-size: 14px;
+    }
+
+    .containerServicio{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .portfolio{
+        margin-top: 50px;
+    }
+
+    .form{
+        margin-top: 50px;
+        padding: 12px;
+    }
+
+    .logoicono2{
+        height:50px;
+    }
+
+    .subtituloForm{
+        font-size: 14px;
+    }
+
+    .containerForm{
+        padding-left: 0;
+    }
+
+    .formtext{
+        font-size: 12px;
+    }
   }
