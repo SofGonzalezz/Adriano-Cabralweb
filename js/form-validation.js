@@ -21,6 +21,12 @@ jQuery(document).ready(function($){
 			
 		//email
 		var email = $("input[name=email]").val();
+		var er_email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/; 
+		if(!er_email.test(email)) {   
+				$("#error").fadeIn().text("Error en el email");
+				$("input#email").focus();
+				return false; 
+			}
 		
 		//telefono
 		var telefono = $("input[name=telefono]").val();
