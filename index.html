@@ -20,8 +20,9 @@
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 
-
-  
+  <!-- JS ENVÍO DE CONSULTA -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/form-validation.js"></script>
 
   <link rel="stylesheet" href="assets/icofont/icofont.css">
 </head>
@@ -195,7 +196,7 @@
       </div>
   </div>
 
-    <div class="container Bienvenido">
+    <div class="container Bienvenido" id="sobreMi">
         <div class="row bienvenidosFlex">
           <h1 class="H1">BIENVENIDOS</h1>
           <h2 class="H2">Sobre mí</h2>
@@ -366,36 +367,49 @@
                 <p class="subtituloForm">Comienza un proyecto con nosotros, programa una reunión personal o simplemente di ¡Hola!</p>
               </div>
             </div>
+            <form method="post" id="contactform">
             <div class="row">
               <div class="col-12 col-md-6 form-floating mb-3 formtext">
-                <input type="name" class="form-control" id="floatingInput" placeholder="Nombre y apellido">
+                <input type="name" class="form-control" id="floatingInput" name="nombre" placeholder="Nombre y apellido">
                 <label for="floatingInput">Nombre y apellido</label>
               </div>
               <div class="col-12 col-md-6 form-floating mb-3 formtext">
-                <input type="name" class="form-control" id="floatingInput" placeholder="Nombre de la organización o empresa">
+                <input type="name" class="form-control" id="floatingInput" name="empresa" placeholder="Nombre de la organización o empresa">
                 <label for="floatingInput">Nombre de la organización o empresa</label>
               </div>
             </div>
             <div class="row">
              <div class="col-12 col-md-6 form-floating mb-3 formtext">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Correo electrónico">
+                <input type="email" class="form-control" id="floatingInput" name="email" placeholder="Correo electrónico">
                 <label for="floatingInput">Correo electrónico</label>
               </div>
               <div class="col-12 col-md-6 form-floating mb-3 formtext">
-                <input type="number" class="form-control" id="floatingInput" placeholder="Número de télefono">
+                <input type="number" class="form-control" id="floatingInput" name="telefono" placeholder="Número de télefono">
                 <label for="floatingInput">Número de télefono</label>
               </div>     
             </div>
             <div class="row">
               <div class="form-floating mb-3 formtext">
-                  <textarea class="form-control" placeholder="Deja tu mensaje aqui" id="floatingTextarea"></textarea>
+                  <textarea class="form-control" placeholder="Deja tu mensaje aqui" name="mensaje" id="floatingTextarea"></textarea>
                   <label for="floatingTextarea">Hablanos de tu proyecto, tiempos o fecha límite y tu presupuesto.</label>
               </div>
             </div>
               <div class="col-md-12 containerBoton">
-                <button class="btn formboton" type="submit">Enviar</button>
+                <button class="btn formboton" id="submit">Enviar</button>
               </div>
+            </form>
+              <div class="col-md-12">
+                <br>
+                <p id="error" class="alert alert-warning"></p>
+                <p id="sent-form-msg" class="alert alert-success">Consulta enviada,<br>
+                  A la brevedad responderemos su consulta.<br>
+                  <br>
+                  Gracias por su contacto!<br>
+                  <br>
+                </p>
+                </div>
             </div>
+            
           </div>
         </section>
  
