@@ -1,7 +1,7 @@
 <?php
 //vars
 $subject = "Contacto desde el Sitio Web";
-$to = 'jmiguens@foconetworks.com';
+$to = 'cabraljoseadriano@gmail.com';
 
 $from = $_POST['email'];
 
