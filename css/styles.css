@@ -309,6 +309,11 @@ footer{
     padding: 25px;
 }
 
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
 footer i{
     margin: 0 5px;
 }
